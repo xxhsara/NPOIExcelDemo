@@ -10,7 +10,7 @@ namespace NPOIExcelDemo
 {
     public class NPOIHelper
     {
-        public IWorkbook GenerateExcel()
+        public static IWorkbook GenerateExcel()
         {
             HSSFWorkbook hSSFWorkbook = new HSSFWorkbook();
             ISheet sheet1 = hSSFWorkbook.CreateSheet("Sheet1");
